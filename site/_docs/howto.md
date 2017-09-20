@@ -501,11 +501,11 @@ Check the artifacts:
   * apache-calcite-X.Y.Z-src.tar.gz
   * apache-calcite-X.Y.Z-src.tar.gz.asc
   * apache-calcite-X.Y.Z-src.tar.gz.md5
-  * apache-calcite-X.Y.Z-src.tar.gz.sha1
+  * apache-calcite-X.Y.Z-src.tar.gz.sha256
   * apache-calcite-X.Y.Z-src.zip
   * apache-calcite-X.Y.Z-src.zip.asc
   * apache-calcite-X.Y.Z-src.zip.md5
-  * apache-calcite-X.Y.Z-src.zip.sha1
+  * apache-calcite-X.Y.Z-src.zip.sha256
 * Note that the file names start `apache-calcite-`.
 * In the two source distros `.tar.gz` and `.zip` (currently there is
   no binary distro), check that all files belong to a directory called
