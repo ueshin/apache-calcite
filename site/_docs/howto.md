@@ -495,7 +495,9 @@ mvn clean
 mvn -DdryRun=true -DskipTests -DreleaseVersion=X.Y.Z -DdevelopmentVersion=X.Y+1.Z-SNAPSHOT -Papache-release -Darguments="-Dgpg.passphrase=${GPG_PASSPHRASE}" release:prepare 2>&1 | tee /tmp/prepare-dry.log
 {% endhighlight %}
 
-Check the artifacts:
+Check the artifacts.
+Note that when performing the dry run `SNAPSHOT` will appear in any file or directory names given below.
+The version will be automatically changed when performing the release for real.
 
 * In the `target` directory should be these 8 files, among others:
   * apache-calcite-X.Y.Z-src.tar.gz
